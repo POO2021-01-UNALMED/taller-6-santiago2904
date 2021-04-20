@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package taller6.vehiculos;
+package vehiculos;
 
 import java.util.ArrayList;
 
@@ -21,12 +21,14 @@ public class Fabricante {
     public Fabricante() {
 
     }
-
-    public Fabricante(String nombre, Pais pais) {
+    
+    public Fabricante(String nombre, Pais pais){
         this.nombre = nombre;
-        this.pais = pais;
+        this.pais= pais;
         fabricantes.add(this);
     }
+
+    
 
     public String getNombre() {
         return nombre;
